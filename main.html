@@ -8,6 +8,38 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Signup Form Car</h1>
+	<form action="#" method="post">
+	<label for ="name">Name</label>
+	<input name="name" id="name" type="text" placeholder="Name" required>
+	<label for ="email">Email</label>
+	<input name="email" id="email" type="email" placeholder="Email" required><br><br>
+	<label for ="">Gender:</label>
+		<label for="gender_m">Male</label>
+	<input name="gender" id="gender_m" type="radio" required>
+		<label for="gender_f">Femail</label>
+		<input name="gender" id="gender_f" type="radio" required><br><br>
+<label for="cars">Car Brands</label>
+
+<select name="cars" id="cars">
+	<option value="" disabled selected>--Please choose an option--</option>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select><br><br>
+	<label for ="age">Age</label>
+	<input name="age" id="age" type="number" placeholder="Age" required><br><br>
+	<label for ="dob">DOB</label>
+	<input name="dob" id="dob" type="date" required><br><br>
+	<label for ="tel">Phone Number</label>
+	<input name="phone" id="tel" type="Tel" placeholder="xxx-xxx-xxxx"><br><br>
+		<label for ="password">Password</label>
+	<input name="passord" id="password" type="password" placeholder="Password" required><br><br>
+		<label for ="tos">I agree to the TOS</label>
+	<input name="tos" id="tos" type="checkbox" required><br><br>
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
